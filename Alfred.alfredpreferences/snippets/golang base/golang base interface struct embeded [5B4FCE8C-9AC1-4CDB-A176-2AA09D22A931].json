@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "type Animal struct {}\nfunc (a Animal) Eat() {\n    fmt.Println(\"Eating\")\n}\n\ntype FamilyMember struct {}\nfunc (fm FamilyMember) LastName() {\n    fmt.Println(\"My last name is Smith\")\n}\n\ntype Dog struct {\n    Animal \/\/ This is the embedded struct\n    FamilyMember \/\/ Likewise\n}\n\nd := Dog{}\nd.Eat() \/\/ Prints \"Eating\"\nd.LastName() \/\/ Prints \"My last name is Smith\"",
+    "uid" : "5B4FCE8C-9AC1-4CDB-A176-2AA09D22A931",
+    "name" : "golang base interface struct embeded",
+    "keyword" : ""
+  }
+}

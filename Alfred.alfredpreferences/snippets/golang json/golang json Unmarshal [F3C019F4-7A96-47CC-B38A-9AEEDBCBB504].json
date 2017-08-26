@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "var jsonString string\nvar animals []Animal\nvar err error\ni\nf err = json.Unmarshal([]byte(jsonString), &animals); err != nil {\n\tfmt.Println(\"error:\", err)\n}",
+    "uid" : "F3C019F4-7A96-47CC-B38A-9AEEDBCBB504",
+    "name" : "golang json Unmarshal",
+    "keyword" : ""
+  }
+}

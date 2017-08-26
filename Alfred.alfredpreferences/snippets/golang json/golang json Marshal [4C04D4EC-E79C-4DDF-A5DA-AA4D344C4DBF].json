@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "var byteArray []byte\nvar err error\nvar stuct\n\nif b, err := json.Marshal(stcuct); err != nil {\n\tfmt.Println(\"error:\", err)\n}\nfmt.Println(string(byteArray))\n",
+    "uid" : "4C04D4EC-E79C-4DDF-A5DA-AA4D344C4DBF",
+    "name" : "golang json Marshal",
+    "keyword" : ""
+  }
+}

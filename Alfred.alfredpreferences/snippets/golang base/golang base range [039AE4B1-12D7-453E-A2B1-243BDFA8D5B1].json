@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "old := []string{\"5\", \"6\", \"7\", \"8\", \"9\"} \nvar new = []string\nfor i, v := range old {\n  new = append(new, v)\n}",
+    "uid" : "039AE4B1-12D7-453E-A2B1-243BDFA8D5B1",
+    "name" : "golang base range",
+    "keyword" : ""
+  }
+}

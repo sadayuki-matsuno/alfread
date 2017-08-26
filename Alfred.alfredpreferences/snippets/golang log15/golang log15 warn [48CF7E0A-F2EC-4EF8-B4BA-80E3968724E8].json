@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "log15.Warn(\"errmsg\",\"method\", , \"err\", err)",
+    "uid" : "48CF7E0A-F2EC-4EF8-B4BA-80E3968724E8",
+    "name" : "golang log15 warn",
+    "keyword" : ""
+  }
+}

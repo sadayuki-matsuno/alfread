@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "mutation UploadScanResult($oID: String!, $gID: String!, $sInput: ScanResultInput!) {\n  addScanResult(organizationID: $oID, groupID: $gID, scanResultInput: $sInput) {\n    ID\n    OrganizationID\n    GroupID\n  }\n}\n\n{\n  \"oID\": \"organizationID\",\n  \"gID\": \"groupID\",\n  \"sInput\": {\n    \"ScannedAt\": \"ScannedAt\",\n    \"Lang\": \"Lang\",\n    \"ServerName\": \"ServerName\",\n    \"Family\": \"\",\n    \"Release\": \"\",\n    \"Errors\": \"\"\n  }\n}\n",
+    "uid" : "EB4C7D20-4CDF-41E9-AF16-51E8B919CF80",
+    "name" : "graphql vuls-saas scanResult",
+    "keyword" : ""
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "var a interface{}\na = 1\naInt := a.(int) \/\/ 👍\n\na = \"Atlanta\"\naInt = a.(int) \/\/ Runtime panic!\naInt, ok := a.(int) \/\/ ok will be false and no panic",
+    "uid" : "959A064B-E539-4C5D-B53A-E137B8009F8C",
+    "name" : "golang base check interface",
+    "keyword" : ""
+  }
+}

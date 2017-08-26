@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "a = map[string]int\na[\"dogs\"] = 3\na[\"cats\"] = 0\n\ncats, contains := a[\"cats\"] \/\/ cats will be 0, contains will be true\nlizards, contains := a[\"lizards\"] \/\/ lizards will be 0, contains will be false",
+    "uid" : "DE979EE2-096A-4CE4-BDD1-665F98DF77A3",
+    "name" : "golang base add map",
+    "keyword" : ""
+  }
+}

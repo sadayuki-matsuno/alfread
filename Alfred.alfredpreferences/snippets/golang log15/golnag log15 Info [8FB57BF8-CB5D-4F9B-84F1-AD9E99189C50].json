@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "log15.Info(\"message\", \"method\", \".\", ,)",
+    "uid" : "8FB57BF8-CB5D-4F9B-84F1-AD9E99189C50",
+    "name" : "golnag log15 Info",
+    "keyword" : ""
+  }
+}

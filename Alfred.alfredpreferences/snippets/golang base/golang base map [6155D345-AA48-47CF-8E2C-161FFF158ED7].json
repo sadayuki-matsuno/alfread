@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "\/\/ Add item to a map\na := map[string]int{}\na[\"car\"] = 3\na[\"truck\"] = 1\n\n\/\/ Remove item from a map\ndelete(a, \"car\")\n\n\/\/ Access items with a subscript\nb := a[\"truck\"] \/\/ 1\n\n\/\/ Add item to a slice\nc := []int{3, 4, 2, 1, 8}\nc = append(c, 2)\n\n\/\/ Remove item at index 1 from the slice\nc = append(c[:1], c[2:]...)\n\n\/\/ Access items with a subscript\nd := c[2] \/\/ 1",
+    "uid" : "6155D345-AA48-47CF-8E2C-161FFF158ED7",
+    "name" : "golang base map",
+    "keyword" : ""
+  }
+}

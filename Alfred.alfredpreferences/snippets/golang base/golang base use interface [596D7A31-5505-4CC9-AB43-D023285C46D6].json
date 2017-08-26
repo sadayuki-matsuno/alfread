@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "type Barker interface {\n    Bark()\n}\n\ntype Dog struct {}\nfunc (d Dog) Bark() {\n    fmt.Println(\"Woof!\")\n}\n\nvar b Barker\nb = Dog{}\nb.Bark()",
+    "uid" : "596D7A31-5505-4CC9-AB43-D023285C46D6",
+    "name" : "golang base use interface",
+    "keyword" : ""
+  }
+}

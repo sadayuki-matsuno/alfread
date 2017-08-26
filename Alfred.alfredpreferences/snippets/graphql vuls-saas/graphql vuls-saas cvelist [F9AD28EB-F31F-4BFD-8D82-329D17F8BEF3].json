@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "{\n  cveList(cveIds: [\"CVE-2015-2323\"]) {\n    edges {\n      node {\n        cveId\n        nvd {\n          id\n          publishedDate\n        }\n      }\n    }\n  }\n}",
+    "uid" : "F9AD28EB-F31F-4BFD-8D82-329D17F8BEF3",
+    "name" : "graphql vuls-saas cvelist",
+    "keyword" : ""
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "{\n  servers(ids: [\"10000\", \"10001\"]) {\n    id\n    serverID\n    name\n    tags\n    role {\n      id\n    }\n    tasks {\n      id\n      comments {\n        id\n        text\n      }\n    }\n    family\n    packages {\n      name\n      version\n      release\n      newVersion\n      newRelease\n      repository\n      notFixedYet\n    }\n    role {\n      id\n      name\n      e\n    }\n    cveSummary {\n      serverID\n      high\n      medium\n      low\n    }\n    cveList {\n      edges {\n        node {\n          cveID\n          tasks(serverID: \"10000\") {\n            id\n            assignee {\n              id\n              name\n            }\n            status\n            dueDate\n          }\n        }\n      }\n      cves {\n        cveID\n      }\n    }\n  }\n  tasks(serverID: \"10000\", cveID: \"CVE-2007-4883\") {\n    id\n    assignee {\n      id\n      name\n    }\n  }\n  organization(organizationID: \"11111\") {\n    id\n    groups {\n      id\n      name\n      servers {\n        id\n        cveList {\n          edges {\n            node {\n              cveID\n            }\n          }\n        }\n      }\n    }\n  }\n}\n",
+    "uid" : "C3489C18-5112-49CE-A470-81F890479B16",
+    "name" : "20170630",
+    "keyword" : ""
+  }
+}

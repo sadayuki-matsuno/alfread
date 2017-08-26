@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "var a [5]int \/\/ 👍 An int array of length 5\nvar b []int \/\/ nil\nb = make([]int, 5) \/\/ 👍 An int slice with capacity and length of 5\n\/\/ OR\nb = make([]int, 3, 5) \/\/ 👍 An int slice with capacity of 5 and length of 3 \n\/\/ OR\n\/\/ The := operator combines a variable declaration with an initialization\nc := []int{} \/\/ 👍 An int slice with capacity and length of 0\nvar d map[string]int \/\/ nil\nd = make(map[string]int) \/\/ 👍 A map of string keys and int values\n\/\/ OR\ne := map[string]int{} \/\/ 👍 A map of string keys and int values",
+    "uid" : "BF2BACE6-DF4E-404D-8E11-976F443CE86E",
+    "name" : "golang base init map slice",
+    "keyword" : ""
+  }
+}

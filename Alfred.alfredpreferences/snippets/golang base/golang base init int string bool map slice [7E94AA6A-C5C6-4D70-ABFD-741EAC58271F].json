@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "var a int \/\/ 0\nvar b string \/\/ \"\"\nvar c bool \/\/ false\nvar d [5]int \/\/ {0, 0, 0, 0, 0}\nvar e []int \/\/ nil\nvar f map[string]int \/\/ nil",
+    "uid" : "7E94AA6A-C5C6-4D70-ABFD-741EAC58271F",
+    "name" : "golang base init int string bool map slice",
+    "keyword" : ""
+  }
+}

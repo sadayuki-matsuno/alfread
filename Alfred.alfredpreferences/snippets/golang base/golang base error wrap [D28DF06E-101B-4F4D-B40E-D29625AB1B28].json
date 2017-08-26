@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "_, err := ioutil.ReadAll(r)\nif err != nil {\n        return errors.Wrap(err, \"read failed\") \/\/ \"read failed: improperly formatted data\"\n}",
+    "uid" : "D28DF06E-101B-4F4D-B40E-D29625AB1B28",
+    "name" : "golang base error wrap",
+    "keyword" : ""
+  }
+}
