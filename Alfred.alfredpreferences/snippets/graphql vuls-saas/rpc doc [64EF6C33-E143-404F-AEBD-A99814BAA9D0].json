@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "# ()\n- 参考処理シーケンス\n    - なし\n- 宣言(**太字** は必須)\n    - \n- 実行者\n    - owner\n    - admin\n    - member\n- 使われる状況\n    - \n    - \n    - \n    - \n- 説明\n    - \n    - \n    - \n- レスポンス\n```\n```\n- 失敗\n    - \n    - \n    - ",
+    "uid" : "64EF6C33-E143-404F-AEBD-A99814BAA9D0",
+    "name" : "rpc doc",
+    "keyword" : "rpcdoc"
+  }
+}

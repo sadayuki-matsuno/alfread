@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "docker run --rm \\\n  --name dep \\\n  -v \"$PWD\":\/go\/src\/github.com\/vuls-saas\/scan-results-manager \\\n  -w \/go\/src\/github.com\/vuls-saas\/scan-results-manager \\\n  golang:1.9 \\\n  go get -u github.com\/golang\/dep\/...  \\\n  dep ensure",
+    "uid" : "31046D91-7E04-467F-9C19-AF1D2A340A97",
+    "name" : "dep-docker",
+    "keyword" : ""
+  }
+}
